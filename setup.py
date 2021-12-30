@@ -4,7 +4,7 @@ import os
 
 VERSION = '0.0.1'
 DESCRIPTION = 'A simple discord rank card written in python.'
-LONG_DESCRIPTION = 'A simple discord rank card written in python.'
+LONG_DESCRIPTION = open("README.md").read()
 
 # Setting up
 setup(
@@ -15,6 +15,7 @@ setup(
     description=DESCRIPTION,
     long_description_content_type="text/markdown",
     long_description=LONG_DESCRIPTION ,
+    url="https://github.com/yangman946/Python-discord-rankcard",
     packages=find_packages(),
     install_requires=['Pillow', 'requests'],
     keywords=['python', 'pillow', 'discord', 'discord-py'],
