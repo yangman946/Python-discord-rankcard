@@ -1,5 +1,8 @@
 # Python-discord-rankcard
 
+![img](https://github.com/yangman946/Python-discord-rankcard/blob/main/pics/out.jpg)
+
+
 ## Usage
 ```
 
