@@ -14,7 +14,7 @@ setup(
     author_email="clarenceyang284@gmail.com",
     description=DESCRIPTION,
     long_description_content_type="text/markdown",
-    long_description=long_description,
+    long_description=LONG_DESCRIPTION ,
     packages=find_packages(),
     install_requires=['Pillow', 'requests'],
     keywords=['python', 'pillow', 'discord', 'discord-py'],
