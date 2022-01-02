@@ -4,7 +4,7 @@
 
 ## Installation
 
-`pip install Python-discord-rankcard==0.0.2`
+`pip install Python-discord-rankcard`
 
 ## Usage
 ```
