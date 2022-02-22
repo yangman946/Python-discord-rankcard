@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 import codecs
 import os
 
-VERSION = '0.0.4'
+VERSION = '0.0.5'
 DESCRIPTION = 'A simple discord rank card written in python.'
 LONG_DESCRIPTION = open("README.md").read()
 

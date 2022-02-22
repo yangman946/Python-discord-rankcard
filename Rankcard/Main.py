@@ -35,8 +35,8 @@ class RANKCARD():
         
 
 
-        font = ImageFont.truetype(font=f"fonts/regular.ttf", size=50)
-        font2 = ImageFont.truetype(font=f"fonts/regular.ttf", size=25)
+        font = ImageFont.truetype(font=f"Rankcard/fonts/regular.ttf", size=50)
+        font2 = ImageFont.truetype(font=f"Rankcard/fonts/regular.ttf", size=25)
 
         # add text
         d.text((260, 100),username,(255,255,255), font=font)
