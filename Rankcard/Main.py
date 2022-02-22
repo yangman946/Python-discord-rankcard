@@ -29,15 +29,14 @@ class RANKCARD():
         img.paste(img_avatar, (50, 50))
         d = ImageDraw.Draw(img)
         d = self.drawProgressBar(d, 260, 180, 575, 40, current_xp/next_level_xp, bg="#484B4E", fg = xp_color) # create progress bar
-        print(os.getcwd)
+        print(str(os.getcwd()))
 
-        # import fonts
-        try:
-            font = ImageFont.truetype(f"{os.getcwd()}/fonts/regular.ttf", 50)
-            font2 = ImageFont.truetype(f"{os.getcwd()}/fonts/regular.ttf", 25)
-        except:
-            font = ImageFont.truetype(f"{os.getcwd()}\fonts\regular.ttf", 50)
-            font2 = ImageFont.truetype(f"{os.getcwd()}\fonts\regular.ttf", 25)
+
+        
+
+
+        font = ImageFont.truetype(font=f"fonts/regular.ttf", size=50)
+        font2 = ImageFont.truetype(font=f"fonts/regular.ttf", size=25)
 
         # add text
         d.text((260, 100),username,(255,255,255), font=font)
@@ -47,8 +46,8 @@ class RANKCARD():
 
 
         # save image
-        img.save(f"{os.getcwd()}/pics/out.jpg")
-        return f"{os.getcwd()}/pics/out.jpg"
+        img.save(f"{os.getcwd()}\\Rankcard\\pics\\out.jpg")
+        return f"{os.getcwd()}\\Rankcard\\pics\\out.jpg"
     
     def drawProgressBar(self, d, x, y, w, h, progress, bg="black", fg="red"):
         # draw background
