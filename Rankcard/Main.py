@@ -33,11 +33,11 @@ class RANKCARD():
 
         # import fonts
         try:
-            font = ImageFont.truetype(f"fonts/regular.ttf", 50)
-            font2 = ImageFont.truetype(f"fonts/regular.ttf", 25)
+            font = ImageFont.truetype(f"{os.getcwd()}/fonts/regular.ttf", 50)
+            font2 = ImageFont.truetype(f"{os.getcwd()}/fonts/regular.ttf", 25)
         except:
-            font = ImageFont.truetype(f"fonts\regular.ttf", 50)
-            font2 = ImageFont.truetype(f"fonts\regular.ttf", 25)
+            font = ImageFont.truetype(f"{os.getcwd()}\fonts\regular.ttf", 50)
+            font2 = ImageFont.truetype(f"{os.getcwd()}\fonts\regular.ttf", 25)
 
         # add text
         d.text((260, 100),username,(255,255,255), font=font)
