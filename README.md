@@ -21,7 +21,7 @@
 	async def rank(self, ctx):
 		card = self.rankcard.rank_card(
 				    username=ctx.author.name, # user name
-				    avatar= ctx.author.avatar_url, 
+				    avatar= ctx.author.avatar.url, 
 				    level=1, # user level
 				    rank=1, # user rank
 				    current_xp=0, # user xp
